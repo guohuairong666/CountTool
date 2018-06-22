@@ -1,0 +1,12 @@
+shiro-filter-factory-bean:
+  login-url: /login
+  unauthorized-url: /403
+  filter-chain-definition-list:
+   # 示例：
+   # -  URL=过滤器  << 等号不能缺少
+   # - /info=authc
+   # - /test=authc
+   # - /user/**=authz
+   # - /*=anon
+   /user=anon,
+   /*=anon
