@@ -12,6 +12,7 @@ public class User implements Serializable {
   private Long userId;
   private String userName;
   private String password;
+  private String s;
   private String phoneNumber;
   private Date createTime;
   private String isDel;
